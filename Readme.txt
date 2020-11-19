@@ -1,15 +1,15 @@
 ####N QUEENS PROBLEM
-## using hill climbing, hill climbing with random restart and simulated annealing
+*using hill climbing, hill climbing with random restart and simulated annealing*
 
 ## Description : 
-Given a NXN chessboard, our task is to place n queens on the board in such a way that no two queens attack each other. In chess, queens can attack each other in any direction : horizontally, vertically or diagonally. Two queens can attack each other when they are placed along the same row, same column or same diagonal.
+*Given a NXN chessboard, our task is to place n queens on the board in such a way that no two queens attack each other. In chess, queens can attack each other in any direction : horizontally, vertically or diagonally. Two queens can attack each other when they are placed along the same row, same column or same diagonal.*
 
 ## Hill Climbing : 
-The hill climbing algorithm is a greedy algorithm, since the search is carried out in the direction where the value of the cost function is optimized. All the neighbours of the current configuration are analyzed and the algorithm moves in the direction of the neighbour that optimizes the cost function. This successor may not lead to the most optimal solution, but good heuristics will definitely lead to a locally optimal solution. 
+*The hill climbing algorithm is a greedy algorithm, since the search is carried out in the direction where the value of the cost function is optimized. All the neighbours of the current configuration are analyzed and the algorithm moves in the direction of the neighbour that optimizes the cost function. This successor may not lead to the most optimal solution, but good heuristics will definitely lead to a locally optimal solution. *
 
 ## Hill Climbing with Random Restart 
-The major shortcoming of the hill climbing algorithm is that it gets stuck on local maxima.The hill climbing algorithm does not allow us to go to a state whose value of the cost function is less optimal than that of the current state, because of which we cannot escape the local maxima once we reach it. 
-This problem is resolved through a slight improvement in the hill climbing algorithm - hill climbing with random restart, also known as the shotgun hill climbing. In this algorithm, as and when we reach the local maxima, we start from any random state and proceed till we reach the goal state. 
+*The major shortcoming of the hill climbing algorithm is that it gets stuck on local maxima.The hill climbing algorithm does not allow us to go to a state whose value of the cost function is less optimal than that of the current state, because of which we cannot escape the local maxima once we reach it. 
+This problem is resolved through a slight improvement in the hill climbing algorithm - hill climbing with random restart, also known as the shotgun hill climbing. In this algorithm, as and when we reach the local maxima, we start from any random state and proceed till we reach the goal state. *
 
 ## Simulated Annealing 
 
