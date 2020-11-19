@@ -18,7 +18,7 @@ SA can also be considered as hill climbing with random walks made in some specif
 There are following files in this repository:-
 1. HillClimbing.py
 This file contains the code of the hill climbing algorithm. The program takes input n from the user and generates the result for n queens problem.
-\n\n
+
 
 2. HillClimbingRandomRestart.py
 This file contains the code of the hill climbing random restart algorithm. The program takes input n from the user and generates the result for n queens problem.
