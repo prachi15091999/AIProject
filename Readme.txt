@@ -1,8 +1,8 @@
-####N QUEENS PROBLEM
+#### N QUEENS PROBLEM
 *using hill climbing, hill climbing with random restart and simulated annealing*
 
 ## Description : 
-*Given a NXN chessboard, our task is to place n queens on the board in such a way that no two queens attack each other. In chess, queens can attack each other in any direction : horizontally, vertically or diagonally. Two queens can attack each other when they are placed along the same row, same column or same diagonal.*
+1. *Given a NXN chessboard, our task is to place n queens on the board in such a way that no two queens attack each other. In chess, queens can attack each other in any direction : horizontally, vertically or diagonally. Two queens can attack each other when they are placed along the same row, same column or same diagonal.*
 
 ## Hill Climbing : 
 *The hill climbing algorithm is a greedy algorithm, since the search is carried out in the direction where the value of the cost function is optimized. All the neighbours of the current configuration are analyzed and the algorithm moves in the direction of the neighbour that optimizes the cost function. This successor may not lead to the most optimal solution, but good heuristics will definitely lead to a locally optimal solution. *
