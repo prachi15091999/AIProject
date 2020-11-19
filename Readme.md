@@ -18,6 +18,7 @@ SA can also be considered as hill climbing with random walks made in some specif
 There are following files in this repository:-
 1. HillClimbing.py
 This file contains the code of the hill climbing algorithm. The program takes input n from the user and generates the result for n queens problem.
+\n\n
 
 2. HillClimbingRandomRestart.py
 This file contains the code of the hill climbing random restart algorithm. The program takes input n from the user and generates the result for n queens problem.
@@ -26,9 +27,9 @@ This file contains the code of the hill climbing random restart algorithm. The p
 This file contains the code of the simulated annealing algorithm. This program takes nQueensTest.txt file as input and generates the output in result.txt file.
 
 4. There are three test cases file for simulated annealing.  
-nQuuensTest.txt : (n=4)
-nQuuensTest(1).txt : (n=8)
-nQuuensTest(2).txt : (n=9)
+1. nQueensTest.txt : (n=4)
+2. nQueensTest(1).txt : (n=8)
+3. nQueensTest(2).txt : (n=9)
 
 
 
